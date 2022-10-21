@@ -1,4 +1,5 @@
 #include <helloworld.h>
+#include <fibonacci.h>
 
 int main() 
 {
@@ -10,6 +11,12 @@ int main()
   std::cout << std::endl;
 
   std::cout << greeting("John Doe") << std::endl;
+
+  std::cout << std::endl; 
+
+  std::cout << fibonacci(11) << std::endl;
+
+  std::cout << fibonacci_2(12) << std::endl;
 
   return 0;
 }
