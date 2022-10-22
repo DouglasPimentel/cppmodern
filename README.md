@@ -7,8 +7,7 @@ Modern C++ Tutorial
 ## How to run it
 
 ```
-$ mkdir -p build
-$ cd build
-$ cmake ..
-$ cmake --build .
+$ mkdir build
+$ cmake -S . -B build
+$ cmake --build build
 ```
